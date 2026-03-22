@@ -386,6 +386,9 @@ main{
     }
 }
 @media screen and (max-width:500px) {
+    body{
+        font-size: 0.87rem;
+    }
     body::before{
         background-size: 80%;
     }
@@ -396,5 +399,8 @@ main{
     }
     .site-title-text{
         font-size: 1.8rem;
+    }
+    .subtitle{
+        font-size: 1.12rem;
     }
 }
