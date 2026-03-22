@@ -340,6 +340,10 @@ main{
     .nav ul{
         justify-content: center;
     }
+    .nav li:first-child{
+        margin-left: 0;
+    }
+
 
     /* アバウト */
     .about-inner{
@@ -362,5 +366,16 @@ main{
     /* タグ */
     .tab-contents #sp img{
         max-width: 80%;
+    }
+}
+@media screen and (max-width:500px) {
+    body{
+        background-size: contain;
+    }
+    .site-title{
+        font-size: 2.8rem;
+    }
+    .site-title-text{
+        font-size: 2rem;
     }
 }
