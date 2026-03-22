@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中村伊吹(IBUKI NAKAMURA)のポートフォリオサイトです。">
+    <title>IBUKI NAKAMURA PORTFOLIO SITE</title>
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap" rel="stylesheet"></head>
+<body>
+    <header>
+        <nav class="nav wrapper">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <div class="heart">
+              <h1 class="site-title">IBUKI NAKAMURA<br><span class="site-title-text">PORTFOLIO</span></h1>
+            </div>
+            <div class="scroll">
+              <span>scroll</span>
+            </div>
+        </div>
+
+        <section id="about" class="section">
+            <div class="wrapper section-inner">
+                <h2 class="section-title">ABOUT</h2>
+                <div class="inner">
+                    <div class="about-inner">
+                        <img src="images/about-img.jpg" alt="プロフィール写真">
+                        <div>
+                            <h3 class="subtitle">中村 伊吹  -IBUKI NAKAMURA-</h3>
+                            <p class="about-text">鹿児島県在住 / 一児の母<br>
+                               2017年～現在 トリマーとして勤務。<br>
+                               2024年～2025年 インターネットアカデミーにてWeb制作の基礎を学び、<br>
+                               現在は独学でスキル向上に取り組んでいます。<br>
+                               シンプルで見やすく、心地よいデザインを心がけています。</p>
+                            <h4>SKILL:</h4>
+                            <ul class="about-ul">
+                                <li>HTML / CSS（レスポンシブ対応）</li>
+                                <li>JavaScript / jQuery（簡単なアニメーション実装・継続して学習中）</li>
+                                <li>Figma（デザインカンプ制作）</li>
+                                <li>WordPress（オリジナルテーマ制作に向けて学習中）</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="section">
+            <div class="wrapper section-inner">
+                <h2 class="section-title">WORK</h2>
+                <div class="inner">
+                    <ul class="work-ul">
+                        <li>
+                            <a href="portfolio-portfolio.html"><img src="images/portfolio-screen.png" alt=""></a>
+                            <h3 class="subtitle">Portfolio Site</h3>
+                             <div class="work-text">
+                                <p>DESIGN</p>
+                                <p>CODING</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="portfolio-petsalon.html"><img src="images/petsalon-screen.png" alt=""></a>
+                            <h3 class="subtitle">Pet Salon COCORO</h3>
+                            <div class="work-text">
+                                <p>DESIGN</p>
+                                <p>CODING</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="portfolio-cafe&bar.html"><img src="images/cafebar-screen.png" alt=""></a>
+                            <h3 class="subtitle">CAFE&BAR COCORO</h3>
+                            <div class="work-text">
+                                <p>DESIGN</p>
+                                <p>CODING</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="work.html" class="button">MORE</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="wrapper section-inner">
+                <h2 class="section-title">CONTACT</h2>
+                <div class="inner">
+                        <form  action="https://formspree.io/f/meerwzdv"method="POST">
+                            <div class="form-item">
+                                <label for="name">NAME</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-item">
+                                <label for="email">MAIL ADDRESS</label>
+                                <input type="email" inputmode="email" id="email" name="email" required> 
+                            </div>
+                            <div class="form-item">
+                                <label for="message">MESSAGE</label>
+                                <textarea name="message" inputmode="text" id="message" required></textarea>
+                            </div>
+                            <input type="hidden" name="_redirect" value="thanks.html">
+                            <input class="button" type="submit" value="SUBMIT">
+                        </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p class="copy">&copy;IBUKI NAKAMURA PORTFOLIO</p>
+    </footer>
+
+</body>
+</html>
