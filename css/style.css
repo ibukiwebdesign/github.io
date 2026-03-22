@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    min-height: 100vh;
 }
 img{
     max-width: 100%;
@@ -337,9 +338,9 @@ main{
 
 
 @media screen and (max-width:850px) {
-    body{
+    /* body{
         background-position: center top;
-    }
+    } */
     .nav ul{
         justify-content: center;
     }
