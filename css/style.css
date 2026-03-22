@@ -310,6 +310,10 @@ main{
     color: #A8A4A4;
     transition: 0.4s;
 }
+.url{
+    overflow-wrap: break-word;
+}
+
 /* タブ */
 .tab-buttons {
   display: flex;
