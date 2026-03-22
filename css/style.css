@@ -337,6 +337,9 @@ main{
 
 
 @media screen and (max-width:850px) {
+    body{
+        background-position: center top;
+    }
     .nav ul{
         justify-content: center;
     }
