@@ -89,6 +89,7 @@ main{
 }
 .subtitle{
     font-size: 1.25rem;
+    font-weight: bold;
 }
 
 /* セクション共通 */
@@ -296,7 +297,7 @@ main{
 
 /* ポートフォリオページ */
 .portfolio-text{
-    margin: 30px auto;
+    margin: 30px auto 60px auto;
 }
 .portfolio-link{
     margin-top: 30px;
@@ -312,6 +313,13 @@ main{
 }
 .url{
     overflow-wrap: break-word;
+}
+.portfolio-link dt{
+    font-weight: bold;
+}
+.portfolio-link dd{
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 /* タブ */
