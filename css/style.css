@@ -392,6 +392,9 @@ main{
     .work-list li{
         width: 100%;
     }
+    .banner-img{
+        margin-top: 20px;
+    }
     
     /* ポートフォリオページ */
     /* タグ */
