@@ -91,6 +91,12 @@ main{
     font-size: 1.25rem;
     font-weight: bold;
 }
+.banner-img{
+    margin-top: 40px;
+}
+.banner-list li{
+    margin-bottom: 15px;
+}
 
 /* セクション共通 */
 .section{
