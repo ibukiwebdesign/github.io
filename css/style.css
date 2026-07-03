@@ -378,10 +378,6 @@ main{
     .nav li:first-child{
         margin-left: 0;
     }
-    .banner{
-        width: 100%;
-    }
-
 
     /* アバウト */
     .about-inner{
