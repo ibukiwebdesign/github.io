@@ -97,6 +97,9 @@ main{
 .banner-list li{
     margin-bottom: 15px;
 }
+.banner{
+    width: 80%;
+}
 
 /* セクション共通 */
 .section{
@@ -296,6 +299,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: flex-end;
 }
 .work-list li{
     width: 48%;
@@ -373,6 +377,9 @@ main{
     }
     .nav li:first-child{
         margin-left: 0;
+    }
+    .banner{
+        width: 100%;
     }
 
 
