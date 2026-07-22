@@ -100,6 +100,9 @@ main{
 .banner{
     width: 80%;
 }
+.lp{
+    width: 50%;
+}
 
 /* セクション共通 */
 .section{
