@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中村伊吹(IBUKI NAKAMURA)のポートフォリオサイトです。">
+    <title>IBUKI NAKAMURA PORTFOLIO SITE - PORTFOIO</title>
+    <link rel="stylesheet" href="css/destyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Zeyada&display=swap" rel="stylesheet"></head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <body>
+    <header>
+        <nav class="nav wrapper">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section  class="section">
+            <div class="wrapper section-inner">
+                <h2 class="section-title">WORK</h2>
+                <div class="inner">
+                    <img class="banner" src="images/speakup.png" alt="">
+                    <h3 class="subtitle">SpeakUp  オンライン英会話LP</h3>
+                    <div class="work-text">
+                        <p>DESIGN</p>
+                    </div>
+
+                    <p class="portfolio-text">SpeakUp  オンライン英会話LP（自主制作）</p>
+                    
+                    <dl class="portfolio-link">
+                        <dt>目的</dt>
+                        <dd>サービスの特徴や3ヶ月間の学習イメージを分かりやすく伝え、無料体験への申し込みにつなげることを目的としました。</dd>
+                        <dt>ターゲット</dt>
+                        <dd>20〜30代の働く女性<br>
+                            英語を話せるようになりたいものの、学習時間の確保や継続に不安を感じている方。</dd>
+                        <dt>工夫した点</dt>
+                        <dd>オレンジと淡いグリーンを基調に、英会話を始める楽しさや親しみやすさを表現しました。<br>
+                            写真やアイコンを活用し、サービスの特徴や3ヶ月間の学習ステップを視覚的に分かりやすく整理しました。<br>
+                            また、余白や装飾に統一感を持たせ、PC・スマートフォンそれぞれで見やすいレイアウトを意識しました。</dd>
+                        <dt>制作期間</dt>
+                        <dd>約1週間（構成・ワイヤーフレーム・PC/SPデザイン制作）</dd>
+                        <dt>使用言語・ツール</dt>
+                        <dd>Figma / Chat GPT(画像生成)
+                        </dd>
+                    </dl>
+
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="pc">PC</button>
+                        <button class="tab-button" data-tab="sp">SP</button>
+                    </div>
+                    <div class="tab-contents">
+                        <div class="tab-content active" id="pc">
+                        <img src="images/speakup-PC.png" alt="PC版のスクリーンショット">
+                        </div>
+
+                        <div class="tab-content" id="sp">
+                        <img src="images/speakup-SP.png" alt="SP版のスクリーンショット">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+     <footer id="footer">
+        <p class="copy">&copy;IBUKI NAKAMURA PORTFOLIO</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
